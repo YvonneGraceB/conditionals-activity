@@ -2,7 +2,7 @@ Practice 00.1
   For double, make a program that asks for the radius of a circle, calculates the area using the formula area = π × radius × radius, and outputs the area.
 
     double radius = Convert.ToDouble (Coscole.ReadLine());
-    double area = 3.14 × radius;
+    double area = Math.PI × radius;
     Console.WriteLine(&"area: {area}");
 
   For string, write a program that promps the user for their first and last name, combines them into a full name, and displays it.
